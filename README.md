@@ -4,15 +4,13 @@ zFlow is a local-first terminal assistant for your real shell. It runs inside a 
 
 > This repository is the public release surface for zFlow. It contains product-facing documentation, website assets, and release materials. It should not contain the source code of the private development project.
 
-<a href="https://www.zflow.dev/">
-  <img src="assets/website-preview.svg" alt="Open the zFlow website" width="100%">
-</a>
+[www.zflow.dev](https://www.zflow.dev/)
 
 ## Demo Video
 
 The short promotional demo shows installation, startup, command recommendations, candidate selection, execution, layout mode switching, and local-first learning.
 
-<video src="assets/zflow-demo-promo.mp4" controls muted playsinline width="100%"></video>
+![zFlow demo video](assets/zflow-demo-promo.gif)
 
 ## Why zFlow
 
