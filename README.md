@@ -8,7 +8,7 @@ zFlow is a local-first terminal assistant for your real shell. It runs inside a 
 
 ## Demo Video
 
-The short promotional demo shows startup, command recommendations, candidate selection, execution, layout mode switching, and local-first learning.
+The short promotional demo shows installation, startup, command recommendations, candidate selection, execution, layout mode switching, and local-first learning.
 
 [![zFlow promotional demo video](assets/zflow-demo-poster.jpg)](assets/zflow-demo-promo.mp4)
 
