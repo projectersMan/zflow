@@ -4,15 +4,13 @@ zFlow is a local-first terminal assistant for your real shell. It runs inside a 
 
 > This repository is the public release surface for zFlow. It contains product-facing documentation, website assets, and release materials. It should not contain the source code of the private development project.
 
-[Website](https://www.zflow.dev/) · [Website source](site/index.html) · [Demo video](assets/zflow-demo-promo.mp4)
+[Website](https://www.zflow.dev/)
 
 ## Demo Video
 
 The short promotional demo shows installation, startup, command recommendations, candidate selection, execution, layout mode switching, and local-first learning.
 
 <video src="assets/zflow-demo-promo.mp4" controls muted playsinline width="100%"></video>
-
-[Open the video file](assets/zflow-demo-promo.mp4).
 
 ## Why zFlow
 
@@ -39,13 +37,7 @@ npx zflow-cli --version
 npx zflow-cli
 ```
 
-npm packages:
-
-- [zflow-cli](https://www.npmjs.com/package/zflow-cli)
-- [zflow-cli-darwin-arm64](https://www.npmjs.com/package/zflow-cli-darwin-arm64)
-- [zflow-cli-darwin-x64](https://www.npmjs.com/package/zflow-cli-darwin-x64)
-
-The main `zflow-cli` package automatically installs the binary package for your current macOS architecture.
+The main `zflow-cli` package supports macOS Apple Silicon and Intel Mac.
 
 ## Quick Start
 
@@ -111,16 +103,6 @@ zFlow stores learning data locally under:
 ```
 
 It reads local shell history to generate suggestions. If a history file is larger than 64 MiB, zFlow reads only the most recent 64 MiB. Command history and recommendation indexes are not uploaded by default.
-
-## Website
-
-The English product website is live at [www.zflow.dev](https://www.zflow.dev/). The static site source lives in [site/index.html](site/index.html).
-
-## Missing Release Assets
-
-The following asset can still be replaced before a more polished public launch:
-
-- High-resolution zFlow logo or wordmark, if the generated release mark should be replaced.
 
 ## Version
 
