@@ -4,15 +4,15 @@ zFlow is a local-first terminal assistant for your real shell. It runs inside a 
 
 > This repository is the public release surface for zFlow. It contains product-facing documentation, website assets, and release materials. It should not contain the source code of the private development project.
 
-[Open the website](site/index.html) · [Video script](docs/demo-video-script.md) · [Repository boundary](docs/release-boundary.md)
+[Website source](site/index.html) · [Video script](docs/demo-video-script.md) · [Repository boundary](docs/release-boundary.md)
 
 ## Demo Video
 
-The short promotional demo shows startup, command recommendations, candidate selection, execution, and layout mode switching.
+The short promotional demo slot is wired into the website. The final public video should show startup, command recommendations, candidate selection, execution, and layout mode switching.
 
-[![zFlow promotional demo video](assets/zflow-demo-poster.jpg)](assets/zflow-demo-promo.mp4)
+[![zFlow demo video poster](assets/zflow-demo-poster.jpg)](docs/demo-video-script.md)
 
-The longer recording plan remains available in [docs/demo-video-script.md](docs/demo-video-script.md).
+Use [docs/demo-video-script.md](docs/demo-video-script.md) as the recording plan. After the final public-safe video is ready, replace this README link with the hosted video URL or a GitHub-compatible asset link.
 
 ## Why zFlow
 
@@ -114,7 +114,7 @@ It reads local shell history to generate suggestions. If a history file is large
 
 ## Website
 
-The English product website lives in [site/index.html](site/index.html). It is a static page and can be opened directly in a browser.
+The English product website source lives in [site/index.html](site/index.html). It is a static page prepared for Vercel deployment; after deployment, replace this note with the canonical public URL.
 
 ## Missing Release Assets
 
