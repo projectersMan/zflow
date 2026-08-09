@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">zFlow demo video placeholder</title>
+  <desc id="desc">A placeholder thumbnail for the zFlow product demo video.</desc>
+  <rect width="1280" height="720" fill="#101418"/>
+  <rect x="104" y="82" width="1072" height="556" rx="18" fill="#151b20" stroke="#2ad38b" stroke-width="3"/>
+  <rect x="104" y="82" width="1072" height="52" rx="18" fill="#1f282e"/>
+  <circle cx="136" cy="108" r="8" fill="#ff5f57"/>
+  <circle cx="164" cy="108" r="8" fill="#ffbd2e"/>
+  <circle cx="192" cy="108" r="8" fill="#28c840"/>
+  <text x="640" y="118" text-anchor="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="18" fill="#9fb2bf">zFlow demo video</text>
+  <text x="154" y="208" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="28" fill="#d8f7e7">$ zflow</text>
+  <text x="154" y="266" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="23" fill="#9fb2bf">Real shell. Local history. Suggested next commands.</text>
+  <rect x="154" y="336" width="972" height="106" rx="10" fill="#0b0f12" stroke="#2ad38b" stroke-width="2"/>
+  <text x="188" y="378" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="20" fill="#2ad38b">[ SUGGESTIONS ]</text>
+  <text x="188" y="416" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="20" fill="#d8f7e7">&lt;1&gt; git status   &lt;2&gt; npm install -g zflow-cli   &lt;3&gt; zflow learn</text>
+  <circle cx="640" cy="542" r="54" fill="#2ad38b"/>
+  <polygon points="624,510 624,574 680,542" fill="#101418"/>
+  <text x="640" y="632" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" fill="#9fb2bf">Placeholder: replace with final screen recording thumbnail</text>
+</svg>
