@@ -42,14 +42,14 @@ The main `zflow-cli` package supports macOS Apple Silicon and Intel Mac.
 ## Quick Start
 
 ```bash
-# Start the interactive terminal assistant
-zflow
-
 # Import shell history and rebuild the local recommendation index
 zflow learn
 
 # Evaluate recommendation quality on local history
 zflow eval
+
+# Start the interactive terminal assistant
+zflow
 ```
 
 `zflow learn` imports available bash/zsh history into zFlow's local database and rebuilds the retrieval index.
@@ -59,9 +59,9 @@ zflow eval
 ## Common Commands
 
 ```bash
-zflow             # Start the interactive terminal assistant
 zflow learn       # Sync shell history and rebuild the index
 zflow eval        # Evaluate local recommendation quality
+zflow             # Start the interactive terminal assistant
 zflow clean       # Remove zFlow learning data
 zflow --version   # Print version
 ```
