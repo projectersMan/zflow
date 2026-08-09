@@ -8,11 +8,11 @@ zFlow is a local-first terminal assistant for your real shell. It runs inside a 
 
 ## Demo Video
 
-The README video slot is ready, but the final recording is still needed.
+The short promotional demo shows startup, command recommendations, candidate selection, execution, and layout mode switching.
 
-[![zFlow demo video placeholder](assets/demo-video-placeholder.svg)](docs/demo-video-script.md)
+[![zFlow promotional demo video](assets/zflow-demo-poster.jpg)](assets/zflow-demo-promo.mp4)
 
-Use the placeholder above until a real hosted demo video is available. After recording, replace this link with the final video URL or a GitHub-compatible asset link.
+The longer recording plan remains available in [docs/demo-video-script.md](docs/demo-video-script.md).
 
 ## Why zFlow
 
@@ -121,9 +121,7 @@ The English product website lives in [site/index.html](site/index.html). It is a
 The following assets still need to be produced before a polished public launch:
 
 - Final demo video file or hosted video URL.
-- Real video thumbnail or product screenshot for `assets/demo-video-placeholder.svg`.
-- High-resolution zFlow logo or wordmark, if one exists.
-- Optional real TUI screenshots for the website feature sections.
+- High-resolution zFlow logo or wordmark, if the generated release mark should be replaced.
 - Final canonical website URL, if the static site will be hosted publicly.
 
 ## Version

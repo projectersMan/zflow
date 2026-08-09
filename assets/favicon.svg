@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="zFlow">
+  <rect width="64" height="64" rx="12" fill="#0d1316"/>
+  <rect x="8" y="8" width="48" height="48" rx="8" fill="#121b1f" stroke="#50c893" stroke-width="3"/>
+  <path d="M21 23h24L23 41h25" fill="none" stroke="#bdf6d5" stroke-width="6" stroke-linecap="square" stroke-linejoin="round"/>
+  <path d="M19 48h25" stroke="#50c893" stroke-width="4" stroke-linecap="square"/>
+</svg>

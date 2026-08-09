@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="180" viewBox="0 0 720 180" role="img" aria-labelledby="title desc">
+  <title id="title">zFlow logo</title>
+  <desc id="desc">A terminal-inspired zFlow wordmark.</desc>
+  <rect width="720" height="180" rx="28" fill="#0d1316"/>
+  <g transform="translate(42 36)">
+    <rect width="108" height="108" rx="18" fill="#121b1f" stroke="#50c893" stroke-width="4"/>
+    <path d="M31 36h49L36 73h48" fill="none" stroke="#bdf6d5" stroke-width="11" stroke-linecap="square" stroke-linejoin="round"/>
+    <path d="M30 88h50" stroke="#50c893" stroke-width="8" stroke-linecap="square"/>
+  </g>
+  <text x="182" y="111" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="76" font-weight="800" fill="#eef8f0">zFlow</text>
+  <text x="187" y="143" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="600" fill="#8da1a9">local-first terminal assistance</text>
+</svg>

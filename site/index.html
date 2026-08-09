@@ -8,12 +8,20 @@
       name="description"
       content="zFlow is a local-first terminal assistant that runs your real shell and suggests next commands from your local history."
     />
+    <meta property="og:title" content="zFlow - Local-first terminal assistance" />
+    <meta
+      property="og:description"
+      content="A real-shell terminal assistant that learns from local history and suggests your next command."
+    />
+    <meta property="og:image" content="../assets/demo-video-thumbnail.svg" />
+    <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <header class="topbar">
-      <a class="brand" href="#top" aria-label="zFlow home">
-        <span class="brand-mark">z</span>
+      <a class="brand" href="#main" aria-label="zFlow home">
+        <img src="../assets/zflow-logo.svg" alt="" class="brand-logo" />
         <span>zFlow</span>
       </a>
       <nav aria-label="Primary navigation">
@@ -24,14 +32,14 @@
       </nav>
     </header>
 
-    <main id="top">
+    <main id="main">
       <section class="hero">
         <div class="hero-copy">
           <p class="eyebrow">Local-first terminal assistance</p>
-          <h1>Your real shell, with command suggestions that learn from you.</h1>
+          <h1>Command suggestions inside the shell you already use.</h1>
           <p class="lede">
-            zFlow runs bash or zsh inside a focused TUI, learns from local command history, and helps
-            you recall the next command without replacing your terminal habits.
+            zFlow wraps your real bash or zsh session, learns from local history, and previews the
+            commands you are likely to need next. You stay in control of what runs.
           </p>
           <div class="actions">
             <a class="button primary" href="#install">Install with npm</a>
@@ -64,15 +72,24 @@
       <section class="video-section" aria-labelledby="demo-title">
         <div>
           <p class="eyebrow">Demo video</p>
-          <h2 id="demo-title">A guided product demo belongs here.</h2>
+          <h2 id="demo-title">A concise walkthrough of start, suggest, and select.</h2>
           <p>
-            This slot is wired for the launch video. Until the final recording is available, it uses
-            a placeholder thumbnail and links to the recording script.
+            The promo video shows the core interaction loop: start zFlow, get recommendations,
+            choose a candidate, execute it, and switch between Bottom and Inline modes.
           </p>
         </div>
-        <a class="video-card" href="../docs/demo-video-script.md" aria-label="Open demo video script">
-          <img src="../assets/demo-video-placeholder.svg" alt="zFlow demo video placeholder" />
-        </a>
+        <div class="video-card">
+          <video
+            src="../assets/zflow-demo-promo.mp4"
+            poster="../assets/zflow-demo-poster.jpg"
+            controls
+            muted
+            playsinline
+            preload="metadata"
+            aria-label="zFlow promotional demo video"
+          ></video>
+          <a class="script-link" href="../docs/demo-video-script.md">View recording script</a>
+        </div>
       </section>
 
       <section id="features" class="section">
@@ -111,8 +128,8 @@
           <p class="eyebrow">Workflow</p>
           <h2>Start, learn, evaluate.</h2>
           <p>
-            zFlow is intentionally small. Install it, launch the TUI, let it learn from local shell
-            history, and evaluate whether the recommendations improve your own workflow.
+            zFlow is intentionally small: install it, launch the TUI, let it learn from local shell
+            history, then evaluate whether recommendations improve your own workflow.
           </p>
         </div>
         <div class="command-panel">
