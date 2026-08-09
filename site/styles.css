@@ -71,14 +71,6 @@ a {
   text-decoration: none;
 }
 
-.brand-logo {
-  width: 34px;
-  height: 34px;
-  object-fit: cover;
-  object-position: left center;
-  border-radius: 7px;
-}
-
 nav {
   display: flex;
   gap: 20px;
