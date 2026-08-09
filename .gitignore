@@ -7,3 +7,4 @@ node_modules/
 dist/
 target/
 *.log
+assets/zflowdemo.mp4

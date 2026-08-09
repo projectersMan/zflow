@@ -4,15 +4,15 @@ zFlow is a local-first terminal assistant for your real shell. It runs inside a 
 
 > This repository is the public release surface for zFlow. It contains product-facing documentation, website assets, and release materials. It should not contain the source code of the private development project.
 
-[Website source](site/index.html) · [Video script](docs/demo-video-script.md) · [Repository boundary](docs/release-boundary.md)
+[Website source](site/index.html) · [Demo video](assets/zflow-demo-promo.mp4) · [Repository boundary](docs/release-boundary.md)
 
 ## Demo Video
 
-The short promotional demo slot is wired into the website. The final public video should show startup, command recommendations, candidate selection, execution, and layout mode switching.
+The short promotional demo shows startup, command recommendations, candidate selection, execution, layout mode switching, and local-first learning.
 
-[![zFlow demo video poster](assets/zflow-demo-poster.jpg)](docs/demo-video-script.md)
+[![zFlow promotional demo video](assets/zflow-demo-poster.jpg)](assets/zflow-demo-promo.mp4)
 
-Use [docs/demo-video-script.md](docs/demo-video-script.md) as the recording plan. After the final public-safe video is ready, replace this README link with the hosted video URL or a GitHub-compatible asset link.
+The original recording plan remains available in [docs/demo-video-script.md](docs/demo-video-script.md).
 
 ## Why zFlow
 
@@ -120,7 +120,6 @@ The English product website source lives in [site/index.html](site/index.html). 
 
 The following assets still need to be produced before a polished public launch:
 
-- Final demo video file or hosted video URL.
 - High-resolution zFlow logo or wordmark, if the generated release mark should be replaced.
 - Final canonical website URL, if the static site will be hosted publicly.
 
