@@ -205,6 +205,15 @@ footer {
   border-color: var(--accent);
 }
 
+.button.tertiary {
+  color: var(--accent);
+}
+
+.button.tertiary:hover {
+  border-color: var(--accent);
+  background: rgba(77, 211, 143, 0.08);
+}
+
 .terminal-demo,
 .video-card,
 .command-panel,
