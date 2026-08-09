@@ -4,15 +4,15 @@ zFlow is a local-first terminal assistant for your real shell. It runs inside a 
 
 > This repository is the public release surface for zFlow. It contains product-facing documentation, website assets, and release materials. It should not contain the source code of the private development project.
 
-[Website source](site/index.html) · [Demo video](assets/zflow-demo-promo.mp4)
+[Website](https://www.zflow.dev/) · [Website source](site/index.html) · [Demo video](assets/zflow-demo-promo.mp4)
 
 ## Demo Video
 
 The short promotional demo shows installation, startup, command recommendations, candidate selection, execution, layout mode switching, and local-first learning.
 
-[Watch the promotional demo](assets/zflow-demo-promo.mp4).
+<video src="assets/zflow-demo-promo.mp4" controls muted playsinline width="100%"></video>
 
-The full walkthrough is available in [assets/zflow-demo-promo.mp4](assets/zflow-demo-promo.mp4).
+[Open the video file](assets/zflow-demo-promo.mp4).
 
 ## Why zFlow
 
@@ -114,14 +114,13 @@ It reads local shell history to generate suggestions. If a history file is large
 
 ## Website
 
-The English product website source lives in [site/index.html](site/index.html). It is a static page prepared for Vercel deployment; after deployment, replace this note with the canonical public URL.
+The English product website is live at [www.zflow.dev](https://www.zflow.dev/). The static site source lives in [site/index.html](site/index.html).
 
 ## Missing Release Assets
 
-The following assets still need to be produced before a polished public launch:
+The following asset can still be replaced before a more polished public launch:
 
 - High-resolution zFlow logo or wordmark, if the generated release mark should be replaced.
-- Final canonical website URL, if the static site will be hosted publicly.
 
 ## Version
 
