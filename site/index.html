@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>zFlow - Local-first terminal assistance</title>
+    <link rel="canonical" href="https://www.zflow.dev/" />
+    <meta
+      name="description"
+      content="zFlow is a local-first terminal assistant that runs your real shell and suggests next commands from your local history."
+    />
+    <meta property="og:title" content="zFlow - Local-first terminal assistance" />
+    <meta property="og:url" content="https://www.zflow.dev/" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:description"
+      content="A real-shell terminal assistant that learns from local history and suggests your next command."
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="zFlow - Local-first terminal assistance" />
+    <meta
+      name="twitter:description"
+      content="A real-shell terminal assistant that learns from local history and suggests your next command."
+    />
+    <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script>
+      window.va =
+        window.va ||
+        function () {
+          (window.vaq = window.vaq || []).push(arguments);
+        };
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="topbar">
+      <a class="brand" href="#main" aria-label="zFlow home">
+        <span>zFlow</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#features">Features</a>
+        <a href="#workflow">Workflow</a>
+        <a href="#privacy">Privacy</a>
+        <a href="#install">Install</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Local-first terminal assistance</p>
+          <h1>Command suggestions inside the shell you already use.</h1>
+          <p class="lede">
+            zFlow wraps your real bash or zsh session, learns from local history, and previews the
+            commands you are likely to need next. You stay in control of what runs.
+          </p>
+          <div class="actions">
+            <a class="button primary" href="#install">Install with npm</a>
+            <a class="button secondary" href="#demo">Watch demo</a>
+            <a class="button tertiary" href="https://github.com/projectersMan/zflow">GitHub</a>
+          </div>
+        </div>
+
+        <div class="terminal-demo" aria-label="zFlow terminal interface preview">
+          <div class="terminal-bar">
+            <span></span>
+            <span></span>
+            <span></span>
+            <strong>zFlow</strong>
+          </div>
+          <div class="terminal-body">
+            <p><span>$</span> zflow</p>
+            <p class="muted">running your real zsh session...</p>
+            <p><span>$</span> git</p>
+            <div class="suggestions">
+              <strong>[ SUGGESTIONS ]</strong>
+              <p>&lt;1&gt; git status</p>
+              <p>&lt;2&gt; git pull --rebase</p>
+              <p>&lt;3&gt; git log --oneline -5</p>
+            </div>
+            <p class="hint">Select a candidate to fill the input. Execute only when you decide.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="demo" class="video-section" aria-labelledby="demo-title">
+        <div>
+          <p class="eyebrow">Demo video</p>
+          <h2 id="demo-title">A concise walkthrough of start, suggest, and select.</h2>
+          <p>
+            The promo video shows the core interaction loop: start zFlow, get recommendations,
+            choose a candidate, execute it, and switch between Bottom and Inline modes.
+          </p>
+        </div>
+        <div class="video-card">
+          <video
+            src="../assets/zflow-demo-promo.mp4"
+            controls
+            muted
+            playsinline
+            preload="metadata"
+            aria-label="zFlow promotional demo video"
+          ></video>
+          <a class="script-link" href="../assets/zflow-demo-promo.mp4">Open video file</a>
+        </div>
+      </section>
+
+      <section id="features" class="section">
+        <p class="eyebrow">Features</p>
+        <h2>Designed for people who already live in the terminal.</h2>
+        <div class="feature-grid">
+          <article>
+            <h3>Real shell wrapper</h3>
+            <p>Keep your existing bash or zsh behavior, including directory changes and interactive commands.</p>
+          </article>
+          <article>
+            <h3>Local learning</h3>
+            <p>Import shell history and build a recommendation index on your machine.</p>
+          </article>
+          <article>
+            <h3>Preview-first suggestions</h3>
+            <p>Suggestions fill the input by default, so execution stays under your control.</p>
+          </article>
+          <article>
+            <h3>Retrieval-assisted recall</h3>
+            <p>Surface relevant commands from previous workflows, even when they were used elsewhere.</p>
+          </article>
+          <article>
+            <h3>Evaluation built in</h3>
+            <p>Use local history to compare recommendation strategies with top-k and MRR metrics.</p>
+          </article>
+          <article>
+            <h3>Configurable behavior</h3>
+            <p>Tune retrieval, adaptive feedback, and Enter behavior from a local config file.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="workflow" class="section split">
+        <div>
+          <p class="eyebrow">Workflow</p>
+          <h2>Install, learn, evaluate, run.</h2>
+          <p>
+            zFlow is intentionally small: install it, import local shell history, evaluate
+            recommendation quality, then launch the TUI when the index is ready.
+          </p>
+        </div>
+        <div class="command-panel">
+          <code>npm install -g zflow-cli</code>
+          <code>zflow learn</code>
+          <code>zflow eval</code>
+          <code>zflow</code>
+        </div>
+      </section>
+
+      <section id="privacy" class="section privacy">
+        <p class="eyebrow">Privacy</p>
+        <h2>Local-first by default.</h2>
+        <p>
+          zFlow reads local shell history to generate suggestions and stores learning data under
+          <code>~/.config/zflow/</code>. Command history and recommendation indexes are not uploaded
+          by default. This website uses Vercel Web Analytics for aggregate page-view metrics.
+        </p>
+      </section>
+
+      <section id="install" class="section install">
+        <p class="eyebrow">Install</p>
+        <h2>Try zFlow with npm.</h2>
+        <pre><code>npm install -g zflow-cli
+zflow --version
+zflow</code></pre>
+        <p>
+          For a temporary run, use <code>npx zflow-cli</code>. The main npm package selects the
+          appropriate macOS binary package automatically.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>zFlow - local-first terminal assistance.</p>
+      <a href="#main">Back to top</a>
+    </footer>
+  </body>
+</html>

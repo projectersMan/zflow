@@ -1,0 +1,10 @@
+.DS_Store
+.env
+.codegraph/
+.pytest_cache/
+.superdesign/
+node_modules/
+dist/
+target/
+*.log
+Resources/
