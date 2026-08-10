@@ -6,6 +6,8 @@ zFlow is a local-first terminal assistant for your real shell. It runs inside a 
 
 [www.zflow.dev](https://www.zflow.dev/)
 
+The static website uses Vercel Web Analytics for aggregate page-view metrics.
+
 ## Demo Video
 
 The short promotional demo shows installation, startup, command recommendations, candidate selection, execution, layout mode switching, and local-first learning.
